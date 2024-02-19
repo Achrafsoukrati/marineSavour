@@ -1,0 +1,76 @@
+:root{
+    --c1 : #201658;
+    --c2 : #1D24CA;
+    --c3 : #98ABEE;
+    --c4 : #F9E8C9;
+   
+}
+
+body {
+  background-image: url(./anchor-seamless-pattern-anchors-texture-600nw-2166135227.webp);
+  background-repeat: repeat;
+}
+
+.BgGradient {
+  background: rgb(32, 22, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 22, 88, 1) 0%,
+    rgba(29, 36, 202, 1) 40%,
+    rgba(152, 171, 238, 1) 100%
+  );
+
+}
+
+
+.text1{
+    color: var(--c1);
+}
+
+.text2{
+    color: var(--c2);
+}
+
+.text3{
+    color: var(--c3);
+}
+#mn{
+    text-align: center;
+    color: var(--c1) ;
+}
+.card-title{
+    color: var(--c1);
+}
+.btn{
+    background-color: var(--c1);
+}
+#apro{
+    text-align: center;
+    color: var(--c1) ;
+
+}
+.frm{
+border-radius: 20px;
+background: linear-gradient(
+    90deg,
+    rgba(32, 22, 88, 1) 0%,
+    rgba(29, 36, 202, 1) 40%,
+    rgba(152, 171, 238, 1) 100%
+  );
+border: solid 1px #201658;
+
+}
+footer{
+    background: linear-gradient(
+        90deg,
+        rgba(32, 22, 88, 1) 0%,
+        rgba(29, 36, 202, 1) 40%,
+        rgba(152, 171, 238, 1) 100%
+      );
+      
+      }
+    
+footer > p{
+    color: white;
+
+}
